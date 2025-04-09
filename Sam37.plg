@@ -1,0 +1,70 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Sam37 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\HPCompaq\LOCALS~1\Temp\RSP45.tmp" with contents
+[
+/nologo /G6 /Zp16 /ML /W3 /vmg /vd0 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/Sam37.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"C:\Documents and Settings\HPCompaq\My Documents\STA_4d153_SOURCE\cAINew.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\HPCompaq\LOCALS~1\Temp\RSP45.tmp" 
+Creating temporary file "C:\DOCUME~1\HPCompaq\LOCALS~1\Temp\RSP46.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib dxguid.lib ddraw.lib dinput8.lib dxerr9.lib dplay.lib dsound.lib fmodvc.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Sam37.pdb" /machine:I386 /out:"Release/Sam37.exe" 
+".\Release\cAINew.obj"
+".\Release\cAppData.obj"
+".\Release\cBM.obj"
+".\Release\cChatBuffer.obj"
+".\Release\cClassAccess.obj"
+".\Release\cColorTable.obj"
+".\Release\cCommQueue.obj"
+".\Release\cComponentA.obj"
+".\Release\cConfig.obj"
+".\Release\cDA_Audio.obj"
+".\Release\cDbgMem.obj"
+".\Release\cDD_Display.obj"
+".\Release\cDI_Input.obj"
+".\Release\cDP_Multiplay.obj"
+".\Release\cDrawIssue.obj"
+".\Release\cEventBuffer.obj"
+".\Release\cFontInfo.obj"
+".\Release\cGameOptions.obj"
+".\Release\cGameWorldA.obj"
+".\Release\cGDisplay.obj"
+".\Release\cImageSurface.obj"
+".\Release\cInputState.obj"
+".\Release\cInterface.obj"
+".\Release\cMaterial.obj"
+".\Release\cMinimap.obj"
+".\Release\cNation.obj"
+".\Release\cNotifBuffer.obj"
+".\Release\cPathFinder.obj"
+".\Release\cProjectileA.obj"
+".\Release\cRandGen.obj"
+".\Release\cSector.obj"
+".\Release\cSoundSegment.obj"
+".\Release\cSrcGraphicsInfo.obj"
+".\Release\cStringTable.obj"
+".\Release\cStructureA.obj"
+".\Release\cTimer.obj"
+".\Release\cUnitA.obj"
+".\Release\source01 - main.obj"
+]
+Creating command line "link.exe @C:\DOCUME~1\HPCompaq\LOCALS~1\Temp\RSP46.tmp"
+<h3>Output Window</h3>
+Compiling...
+cAINew.cpp
+C:\DXSDK\INCLUDE\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+Linking...
+
+
+
+<h3>Results</h3>
+Sam37.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
